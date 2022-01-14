@@ -1,0 +1,12 @@
+.more {
+  background-image: url(https://d1hg5umxljlmgz.cloudfront.net/FE/svg/LP-background_WEAI.svg);
+  padding: 82px auto;
+  &-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    img {
+      border-radius: 8px;
+    }
+  }
+}

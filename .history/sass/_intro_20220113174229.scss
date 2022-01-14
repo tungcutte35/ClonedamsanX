@@ -1,0 +1,149 @@
+.intro {
+  margin-bottom: 100px;
+  &-container {
+    max-width: 1300px;
+    // margin: 0 auto;
+  }
+  &-item {
+    background-image: url(https://d1hg5umxljlmgz.cloudfront.net/FE/svg/LP-background_heading.svg);
+    background-repeat: no-repeat;
+  }
+  &-item2,
+  &-item3 {
+    background-image: url(https://d1hg5umxljlmgz.cloudfront.net/FE/svg/LP-background_heading_right.svg);
+    background-repeat: no-repeat;
+
+    background-position: right;
+    background-position-y: 7px;
+  }
+
+  &-img {
+    width: 397px;
+  }
+  &-img2,
+  &-img3 {
+    width: 529px;
+  }
+
+  &-content {
+    margin-top: 40px;
+  }
+  &-header {
+    margin-bottom: 20px;
+    span {
+      color: $primary-color;
+    }
+  }
+  &-heading {
+    // margin-top: 30px;
+
+    max-width: 609px;
+  }
+  &-second {
+    margin-bottom: 42px;
+    span {
+      color: $primary-color;
+    }
+  }
+  &-desc {
+    max-width: 543px;
+    margin-bottom: 50px;
+    line-height: calc(33 / 28);
+
+    span {
+      color: $blue-color;
+      font-size: 28px;
+      font-weight: 700;
+    }
+  }
+  &-desc2 {
+    max-width: 621px;
+    margin-bottom: 50px;
+    line-height: calc(33 / 28);
+
+    span {
+      color: $blue-color;
+      font-size: 28px;
+      font-weight: 700;
+    }
+  }
+  &-desc3 {
+    max-width: 677px;
+    margin-bottom: 25px;
+    margin-top: -25px;
+    line-height: calc(33 / 22);
+
+    span {
+      color: $blue-color;
+      font-size: 28px;
+      font-weight: 700;
+    }
+  }
+  &-button {
+    &:hover {
+      // box-shadow: #0c173c 0px 0px 4px 0px;
+      background-color: red;
+      transition: ease-out 0.5;
+    }
+  }
+  &-backgroud {
+    position: absolute;
+    left: 0;
+    top: -60px;
+    z-index: -1;
+  }
+  &-backgroud2 {
+    position: absolute;
+    right: 0;
+    top: -60px;
+    z-index: -1;
+  }
+  @media screen and (max-width: 1025px) {
+    margin-bottom: -40px;
+    &-img {
+      margin-top: 80px;
+    }
+    &-img2 {
+      margin-top: 80px;
+    }
+    &-img3 {
+      margin-top: 120px;
+    }
+  }
+  @media screen and (max-width: 1023px) {
+    &-item {
+      background-position: center;
+      background-position-y: 100px;
+    }
+    &-item2 {
+      background-position: bottom;
+      background-position-x: 150px;
+      background-position-y: 600px;
+    }
+    &-item3 {
+      background-position: bottom;
+      background-position-x: 150px;
+      background-position-y: 600px;
+    }
+    &-button {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 0 auto;
+    }
+    &-content,
+    &-desc {
+      text-align: center;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    &-header {
+      text-align: center;
+      margin-left: auto;
+      margin-right: auto;
+      &:nth-child(3) {
+        margin-left: 30px;
+      }
+    }
+  }
+}

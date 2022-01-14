@@ -1,0 +1,50 @@
+.intro {
+  margin-bottom: 130px;
+  background-image: url(https://dd5sp1fahktbq.cloudfront.net/FE/svg/login-app/bg_layout.svg);
+  background-repeat: no-repeat;
+
+  &-container {
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 95px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    // gap: 0 130px;
+  }
+  &-img {
+    width: 397px;
+  }
+  &-content {
+    margin-top: -40px;
+  }
+  &-header {
+    margin-bottom: 20px;
+    span {
+      color: $primary-color;
+    }
+  }
+  &-second {
+    margin-bottom: 42px;
+    span {
+      color: $primary-color;
+    }
+  }
+  &-desc {
+    max-width: 543px;
+    margin-bottom: 50px;
+    span {
+      color: $blue-color;
+      font-size: 28px;
+      line-height: calc(42 / 28);
+      font-weight: 700;
+    }
+  }
+  &-button {
+    &:hover {
+      // box-shadow: #0c173c 0px 0px 4px 0px;
+      background-color: red;
+      transition: ease-out 0.5;
+    }
+  }
+}

@@ -1,0 +1,26 @@
+.footer {
+  &-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0 90px;
+  }
+  &-right {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0 90px;
+    padding-right: 100px;
+  }
+  &-item {
+    margin-top: 24px;
+    max-width: 297px;
+  }
+  &-link {
+    color: inherit;
+    font-size: 18px;
+    span:last-child {
+      margin-top: 24px;
+    }
+  }
+}

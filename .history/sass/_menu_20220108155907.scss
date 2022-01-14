@@ -1,0 +1,14 @@
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0 28px;
+  &-link {
+    font-weight: 600;
+    color: inherit;
+    &:hover {
+      // color: $primary-color;
+      transition: $primary-color linear 0.2s;
+    }
+  }
+}

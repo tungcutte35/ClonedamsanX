@@ -1,0 +1,38 @@
+.experience {
+  margin-bottom: 130px;
+  &-container {
+    max-width: 1050px;
+    margin: 0 auto;
+  }
+  &-heading {
+    max-width: 620px;
+    font-size: 28px;
+    line-height: calc(41 / 28);
+    color: $blue-color;
+    font-weight: 700;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 70px;
+  }
+  &-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0 42px;
+  }
+  &-img {
+    margin-bottom: 20px;
+  }
+  &-desc {
+    line-height: calc(34 / 22);
+    font-weight: 700;
+    color: $blue-color;
+    // margin: 0 auto;
+    text-align: center;
+  }
+  @media screen and (min-width: 1024px) {
+    &-content {
+      margin: 0 20px;
+    }
+  }
+}

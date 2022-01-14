@@ -1,0 +1,44 @@
+.category {
+  margin-top: 20px;
+  &-container {
+    width: 1300px;
+    max-width: 100%;
+    margin: 0 auto;
+  }
+  &-row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  &-navbar {
+    max-width: 16, 667%;
+    position: relative;
+  }
+  &-icon {
+    margin-top: 50px;
+    color: rgba($color: #fff, $alpha: 0.8);
+    background-color: $primary-color;
+    padding: 18px 65px;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-bottom: 30px;
+  }
+  &-item {
+    padding: 16px 0;
+    &::after {
+      position: absolute;
+      content: "";
+      width: 100%;
+      height: 5px;
+      bottom: 0px;
+      color: red;
+      left: 0;
+    }
+  }
+  &-link {
+    color: $blue-second-color;
+    font-weight: 700;
+  }
+  &-iconnav {
+    margin-right: 12px;
+  }
+}

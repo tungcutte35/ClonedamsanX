@@ -1,0 +1,16 @@
+.teacher {
+  &-container {
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0 80px;
+  }
+  &-desc {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}

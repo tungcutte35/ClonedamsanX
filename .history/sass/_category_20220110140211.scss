@@ -1,0 +1,16 @@
+.category {
+  margin-top: 10px;
+  background-color: cadetblue;
+  &-container {
+    width: 1300px;
+    max-width: 100%;
+    margin: 0 auto;
+  }
+  &-row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  &-navbar {
+    max-width: 16, 667%;
+  }
+}

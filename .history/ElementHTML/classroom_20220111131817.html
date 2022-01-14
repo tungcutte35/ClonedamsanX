@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+    />
+    <link rel="stylesheet" href="/sass/css/app.css" />
+    <title>Class</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <div class="header-logo">
+          <a href="../index.html"
+            ><img
+              src="https://www.damsanx.com/_next/static/images/logo-dsx-full-7ed1753f6986afc92a0a4ac202386989.svg"
+              alt=""
+          /></a>
+        </div>
+        <div class="header-nav">
+          <ul class="menu">
+            <li class="menu-item">
+              <a href="../index.html" class="menu-link">Trang chủ</a>
+            </li>
+            <li class="menu-item">
+              <a href="#" class="button button--primary">Lớp học</a>
+            </li>
+            <li class="menu-item">
+              <a href="#" class="menu-link">Kiểm tra</a>
+            </li>
+            <li class="menu-item">
+              <a href="#" class="menu-link">Bài giảng</a>
+            </li>
+            <li class="menu-item">
+              <a href="#" class="menu-link">Đánh giá</a>
+            </li>
+          </ul>
+        </div>
+        <div class="header-form">
+          <i class="fas fa-th"></i>
+          <div class="header-user">
+            <div class="header-icon">
+              <i class="fas fa-user"></i>
+            </div>
+            <span>Thanh Tung</span>
+          </div>
+        </div>
+      </header>
+      <section class="category">
+        <div class="category-container">
+          <div class="category-row">
+            <div class="category-navbar">
+              <i class="fas fa-plus category-icon"></i>
+              <ul class="category-links">
+                <li class="category-item">
+                  <a href="#" class="category-link">
+                    <i class="fas fa-clipboard category-icon-nav"></i>
+                    Lớp hoạt động
+                  </a>
+                </li>
+                <li class="category-item">
+                  <a href="#" class="category-link">
+                    <i class="fas fa-hourglass-half category-icon-nav"></i>
+                    Lớp đã dừng
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="category-content">
+              <h3 class="category-heading">Đang hoạt động</h3>
+              <!-- <div class="category-list">
+                <span>Tất cả</span>
+                <p class="category-desc">Lớp dạy</p>
+                <p class="category-desc">Lớp học</p>
+              </div> -->
+              <!-- Tab links -->
+              <div class="tab">
+                <button class="tablinks" onclick="openCity(event, 'all')">
+                  Tất cả
+                </button>
+                <button
+                  class="tablinks"
+                  onclick="openCity(event, 'classteaching')"
+                >
+                  Lớp dạy
+                </button>
+                <button class="tablinks" onclick="openCity(event, 'class')">
+                  Lớp học
+                </button>
+              </div>
+              <!-- Tab content -->
+              <div id="all" class="tabcontent">
+                <div class="category-list-card">
+                  <div class="category-card">
+                    <h3 class="category-title">KTPM 16A</h3>
+                    <p class="category-subjects">Kỹ thuật lập trình</p>
+                    <p class="category-teacher">NGUYỄN HỮU TÌNH</p>
+                    <div class="category-img">
+                      <img
+                        src="https://dd5sp1fahktbq.cloudfront.net/avatars/591556bae0b057500eff600dd79d559a458b5e6374807a4bd613fd5fa508d2cb.png?w=128&q=75"
+                        alt=""
+                      />
+                    </div>
+                    <p class="category-more">Hiện không có bài kiểm tra nào</p>
+                  </div>
+                  <div class="category-card">
+                    <h3 class="category-title">HTTT 16B</h3>
+                    <p class="category-subjects">
+                      Các vấn đề xã hội & Đạo đức...
+                    </p>
+                    <p class="category-teacher">NGUYỄN HỮU TÌNH</p>
+                    <div class="category-img">
+                      <img
+                        src="https://dd5sp1fahktbq.cloudfront.net/avatars/591556bae0b057500eff600dd79d559a458b5e6374807a4bd613fd5fa508d2cb.png?w=128&q=75"
+                        alt=""
+                      />
+                    </div>
+                    <p class="category-more">Hiện không có bài kiểm tra nào</p>
+                  </div>
+                  <div class="category-card">
+                    <h3 class="category-title">KHDL 16C</h3>
+                    <p class="category-subjects">
+                      Cấu trúc dữ liệu và giải thuật
+                    </p>
+                    <p class="category-teacher">NGUYỄN HỮU TÌNH</p>
+                    <div class="category-img">
+                      <img
+                        src="https://dd5sp1fahktbq.cloudfront.net/avatars/591556bae0b057500eff600dd79d559a458b5e6374807a4bd613fd5fa508d2cb.png?w=128&q=75"
+                        alt=""
+                      />
+                    </div>
+                    <p class="category-more">Hiện không có bài kiểm tra nào</p>
+                  </div>
+                </div>
+              </div>
+
+              <div id="classteaching" class="tabcontent">
+                <h3>Paris</h3>
+                <p>Paris is the capital of France.</p>
+              </div>
+
+              <div id="class" class="tabcontent">
+                <h3>Tokyo</h3>
+                <p>Tokyo is the capital of Japan.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <script src="/app.js"></script>
+  </body>
+</html>

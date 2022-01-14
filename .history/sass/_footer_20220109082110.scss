@@ -1,0 +1,15 @@
+.footer {
+  &-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0 90px;
+  }
+  &-right {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0 90px;
+    padding-right: 130px;
+  }
+}

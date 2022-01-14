@@ -1,0 +1,12 @@
+.experience {
+  &-container {
+    max-width: 1050px;
+    margin: 0 auto;
+  }
+  &-heading {
+    max-width: 612px;
+    font-size: 28px;
+    line-height: calc(41 / 28);
+    color: $blue-color;
+  }
+}

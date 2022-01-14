@@ -1,0 +1,40 @@
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0 28px;
+  &-link {
+    font-weight: 600;
+    color: inherit;
+    &:hover {
+      color: $primary-color;
+      transition: ease-out 0.2s;
+    }
+  }
+  &-toggle {
+    display: none;
+  }
+  @media screen and (max-width: 1023.98px) {
+    position: fixed;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: #fff;
+    width: 300px;
+    z-index: 99;
+    border-left: 1px solid $blue-color;
+    flex-direction: column;
+    gap: 40px 0;
+    justify-content: flex-start;
+    padding-top: 50px;
+    transform: translateX(100%);
+    will-change: transform;
+    transition: all 0.2s linear;
+    &.is-show {
+      transform: translateX(0);
+    }
+    &-toggle {
+      display: inline-block;
+    }
+  }
+}

@@ -1,0 +1,20 @@
+.slick-initialized .slick-slide {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  padding: 52px 50px;
+}
+.slick-dots {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  button {
+    border: none;
+    font-size: 16px;
+    display: flex;
+    justify-content: space-between;
+  }
+}
+.slick-dots {
+  display: flex;
+}

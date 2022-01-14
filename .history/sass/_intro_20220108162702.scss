@@ -1,0 +1,12 @@
+.intro {
+  &-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &-heading {
+    span {
+      color: $primary-color;
+    }
+  }
+}

@@ -1,0 +1,16 @@
+.intro {
+  &-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0 130px;
+  }
+  &-heading {
+    span {
+      color: $primary-color;
+    }
+  }
+  &-desc {
+    max-width: 543px;
+  }
+}

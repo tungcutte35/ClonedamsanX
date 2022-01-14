@@ -1,0 +1,35 @@
+.intro {
+  margin-bottom: 130px;
+  &-container {
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 95px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    // gap: 0 130px;
+  }
+  &-img {
+    width: 397px;
+  }
+  &-header {
+    margin-bottom: 32px;
+    span {
+      color: $primary-color;
+    }
+  }
+  &-second {
+    margin-bottom: 58px;
+    span {
+      color: $primary-color;
+    }
+  }
+  &-desc {
+    max-width: 543px;
+    span {
+      color: $blue-color;
+      font-size: 28px;
+      line-height: calc(42 / 28);
+    }
+  }
+}

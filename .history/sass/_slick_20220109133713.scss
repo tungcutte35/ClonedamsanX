@@ -1,0 +1,9 @@
+.slick {
+  &-initialized,
+  &-slick-slide,
+  &-active {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}

@@ -1,0 +1,37 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 14px 0;
+
+  &-logo {
+    width: 113px;
+  }
+  &-form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0 30px;
+  }
+  &-user {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0 20px;
+    border: 1px solid $blue-second-color;
+    padding: 8px;
+    border-radius: 5px;
+    cursor: pointer;
+    span {
+      font-size: 20px;
+      font-weight: 500;
+    }
+  }
+  &-icon {
+    color: #fff;
+    font-size: 10px;
+    background-color: $blue-second-color;
+    border-radius: 100rem;
+    padding: 10px;
+  }
+}

@@ -1,0 +1,22 @@
+.more {
+  background-image: url(https://d1hg5umxljlmgz.cloudfront.net/FE/svg/LP-background_WEAI.svg);
+  background-size: contain;
+  padding: 82px;
+  margin-bottom: 130px;
+  &-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 40px;
+    img {
+      border-radius: 8px;
+    }
+  }
+  &-desc {
+    max-width: 580px;
+    margin: 0 auto;
+    text-align: center;
+    line-height: calc(29 / 22);
+    font-size: 22px;
+  }
+}

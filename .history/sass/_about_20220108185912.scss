@@ -1,0 +1,10 @@
+.about {
+  &-container {
+    max-width: 1097px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0 30px;
+  }
+}

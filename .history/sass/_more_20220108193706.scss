@@ -1,0 +1,11 @@
+.more {
+  background-image: url(https://d1hg5umxljlmgz.cloudfront.net/FE/svg/LP-background_WEAI.svg);
+  &-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    img {
+      border-radius: 8px;
+    }
+  }
+}
